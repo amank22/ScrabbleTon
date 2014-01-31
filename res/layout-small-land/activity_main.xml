@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a0a0a0"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/toptext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FBB829"
+        android:text="All Words"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25sp" />
+    <!-- Dummy item to prevent AutoCompleteTextView from receiving focus -->
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <EditText
+        android:id="@+id/searchbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toptext"
+        android:background="@drawable/rectanglebg"
+        android:ems="10"
+        android:hint="search"
+        android:inputType="textNoSuggestions"
+        android:nextFocusLeft="@id/searchbox"
+        android:nextFocusUp="@id/searchbox"
+        android:singleLine="true" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/searchbox"
+        layout="@layout/listframe" />
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Scrabble Ton</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ts">TeenScribblers</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="about_app">This app is about words.it has more than 1 lakh words.\nyou can find the best and largest word for your scrabble game.\njust enjoy using the app.\nsupport the developer by rating it good.\nreset list by touching on app name.</string>
+   
+
+</resources>

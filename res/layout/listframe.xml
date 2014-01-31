@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    >
+    <ListView
+                android:id="@+id/list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="#fff"
+                android:dividerHeight="2dp"
+                android:fastScrollEnabled="true"
+                android:overScrollMode="always"
+                android:scrollingCache="false"
+                android:smoothScrollbar="true"
+                android:textFilterEnabled="true"
+                 >
+            </ListView>
+
+            <com.capricorn.RayMenu
+                android:id="@+id/ray_menu"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="bottom"
+                android:background="#77aeaeae"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" >
+            </com.capricorn.RayMenu>
+    
+
+</FrameLayout>
